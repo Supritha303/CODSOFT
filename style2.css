@@ -1,0 +1,135 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #f5f5f5;
+    color: #d91254;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color:rgb(198, 119, 140);
+}
+
+header {
+    background-color: #c5739c;
+    color: #d91459;
+    padding: 40px 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 48px;
+}
+
+header p {
+    font-size: 24px;
+}
+
+section {
+    padding: 60px 0;
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTWSyr0sHuuY854hSqhdt3JIzfOi6CYv2d9OQ&s");
+}
+
+section h2 {
+    text-align: center;
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.about .profile-image {
+    display: block;
+    max-width: 150px;
+    margin: 20px auto;
+    border-radius: 50%;
+}
+
+.skills ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.skills li {
+    background-color: #d7104f;
+    color: #fff;
+    padding: 10px 20px;
+    margin: 10px;
+    border-radius: 5px;
+}
+
+.projects .project {
+    background-color: #fff;
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(203, 12, 12, 0.1);
+}
+
+.projects .project img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.resume a {
+    display: block;
+    text-align: center;
+    background-color: #a12f59;
+    color: #fff;
+    padding: 15px 30px;
+    text-decoration: none;
+    border-radius: 5px;
+    width: 200px;
+    margin: 0 auto;
+}
+
+.contact p {
+    text-align: center;
+    font-size: 18px;
+}
+
+.contact a {
+    color: #0f0105;
+    text-decoration: none;
+}
+
+footer {
+    background-color: #b11070;
+    color: #fff;
+    text-align: center;
+    padding: 15px 0;
+}
+
+footer p {
+    margin: 0;
+}
+nav ul {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: rgb(212, 6, 123);
+    background-color: #c982c8;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+nav ul li a:hover {
+    background-color: #d341b1;
+}
+
